@@ -5,7 +5,7 @@ from kneed import KneeLocator
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import silhouette_score
 
-st.set_page_config(page_icon="❤️",page_title="Customer Segmentation",layout="wide")
+st.set_page_config(page_icon="🤘",page_title="Customer Segmentation",layout="wide")
 file=st.file_uploader(" ",type="csv")
 df=None
 if file:
